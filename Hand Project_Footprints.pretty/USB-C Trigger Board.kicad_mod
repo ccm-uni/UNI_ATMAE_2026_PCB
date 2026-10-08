@@ -1,0 +1,177 @@
+(footprint "USB-C Trigger Board"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 10 11 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "def0765f-b18a-4a3b-8454-33ded4ae981b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "USB-C Trigger Board"
+		(at 10 7 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "e567b43c-b61e-4b52-a540-5a24a4047a84")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 20.32 30.48 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "837d8297-e70e-4a09-b442-d4ab1ee715fd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 20.32 30.48 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "abebae06-670a-42d7-ad3d-14bbffa1456f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 20.32 30.48 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dfbba404-1802-40cb-91bf-efcfe1d52075")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start 15 14)
+		(end 15 11.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "26bf9e91-0193-4c5c-b51e-e1322252d91f")
+	)
+	(fp_line
+		(start 16.125 14)
+		(end 16.125 11.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "1486d70f-e0ae-42a2-b0a7-2d486854e7c9")
+	)
+	(fp_line
+		(start 17.25 14)
+		(end 17.25 11.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "1742a516-4de1-4b34-bbaa-68c5e71b90cf")
+	)
+	(fp_rect
+		(start 0 0)
+		(end 20 30.75)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "01caa062-114e-4956-83b2-2c825308dfca")
+	)
+	(fp_rect
+		(start 5.5 -1.25)
+		(end 14.5 6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "ec39b3c2-be5e-469c-94de-37c5fef2f66d")
+	)
+	(fp_rect
+		(start 13.5 10)
+		(end 18.75 15.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "81ae8d8e-6b9b-4320-a6db-b9409195afe4")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 10 9 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "7cdca343-8307-427d-a29f-356943bc612b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "GND" thru_hole rect
+		(at 19 26.25)
+		(size 1.5 1.5)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c0b7a714-ec04-449f-8a5a-4d5e3e0cb843")
+	)
+	(pad "GND" thru_hole circle
+		(at 19 28.5)
+		(size 1.5 1.5)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c567c4f1-bcf3-4957-9f56-54b544f67cb4")
+	)
+	(pad "V+" thru_hole rect
+		(at 1 26.25)
+		(size 1.5 1.5)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "520368c4-fd07-43ed-969f-ec03ac547f83")
+	)
+	(pad "V+" thru_hole circle
+		(at 1 28.5)
+		(size 1.5 1.5)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "28051ead-ea05-408f-871f-b19b6db1f09e")
+	)
+)

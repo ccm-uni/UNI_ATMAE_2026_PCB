@@ -484,7 +484,9 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
+    "pinned_footprint_libs": [
+      "Hand Project_Footprints"
+    ],
     "pinned_symbol_libs": [
       "Hand Project_DevBoard Symbols"
     ]
