@@ -14,6 +14,9 @@ fp-info-cache
 *.lck
 ~*.lck
 
+# History file
+.history/
+
 # Generated manufacturing outputs
 gerbers/
 output/
