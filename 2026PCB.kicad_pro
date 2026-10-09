@@ -485,7 +485,8 @@
   },
   "libraries": {
     "pinned_footprint_libs": [
-      "Hand Project_Footprints"
+      "Hand Project_Footprints",
+      "Project_Footprints"
     ],
     "pinned_symbol_libs": [
       "Hand Project_DevBoard Symbols"
@@ -660,17 +661,17 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "2026PCB.kicad_sch",
+        "filename": "untitled.kicad_sch",
         "name": "",
-        "uuid": "f948577e-a839-4baf-a882-0492f6adb915"
+        "uuid": "19ff8d64-5b7c-413e-86f5-18ca964f4e55"
       }
     ],
-    "used_designators": "U1",
+    "used_designators": "#PWR1-3,M1,U1-3",
     "variants": []
   },
   "sheets": [
     [
-      "f948577e-a839-4baf-a882-0492f6adb915",
+      "19ff8d64-5b7c-413e-86f5-18ca964f4e55",
       ""
     ]
   ],
